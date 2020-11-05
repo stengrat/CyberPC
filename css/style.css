@@ -1,0 +1,19 @@
+.cabeca{
+    text-align: center;
+    
+}
+
+.header{
+    background-repeat: no-repeat;
+    
+    background-image: url("/image/wp.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
