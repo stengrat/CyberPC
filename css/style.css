@@ -8,8 +8,7 @@
 }
 
 .header{
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
     background-image: url("/image/wp.jpg");
     height: 100%;
     width: 100%;
@@ -21,13 +20,13 @@
 }
 
 
-.borda{
-    border: 10px;
-}
+
 
 .jumbotron{
     min-width: 100%;
     min-height: 100%;
+    margin-bottom: auto;
+    
     
 }
 .parcelado{
@@ -60,3 +59,38 @@
     margin-right: auto;
     
 }
+
+.divteste{
+    max-width:50%;
+    max-height:50%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fundo{
+    background-color: #FF8C3F;
+    
+    
+}
+
+.divteste2{
+    background-color: #FF8C3F;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.video{
+    max-width:75%;
+    max-height:75%;
+    width: auto;
+    height: auto;
+    
+}
+.center{
+    margin: auto;
+    margin-left: 25%;
+    
+}
+
