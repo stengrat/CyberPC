@@ -1,3 +1,7 @@
+:root {
+    --cor-secundaria: #f60;
+  }
+
 .cabeca{
     text-align: center;
     
@@ -17,3 +21,42 @@
 }
 
 
+.borda{
+    border: 10px;
+}
+
+.jumbotron{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+.parcelado{
+    font-size:15px;
+    color:#000;  
+}
+.preco_normal{
+    font-size:25px;
+    color: var(--cor-secundaria);
+    font-family:Swis721_B;
+    letter-spacing:-1px;
+    margin:0;
+    font-weight: bold;
+}
+.preco_desconto{  
+    font-size: 25px; 
+    letter-spacing: -2px;
+    color:#029905;
+    font-weight: bold;
+}
+
+
+
+.imagem {
+    max-width:50%;
+    max-height:50%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
