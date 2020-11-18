@@ -94,3 +94,18 @@
     
 }
 
+.image{
+    background-image: url("/image/background06.jpg");
+    position: fixed;    
+    min-width: 100%;   
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-login{
+    margin-left: 35%;
+    background-color: greenyellow;
+
+}
