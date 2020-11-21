@@ -1,5 +1,7 @@
 :root {
-    --cor-secundaria: #f60;
+    --cor-secundaria: #463F57;
+    
+
   }
 
 .cabeca{
@@ -32,6 +34,10 @@
 .parcelado{
     font-size:15px;
     color:#000;  
+}
+.price{
+    font-size: 18px; 
+    color: #463F57;
 }
 .preco_normal{
     font-size:25px;
@@ -121,4 +127,8 @@
 }
 .footer{
     background-color: #000;
+}
+
+.navbarcolor{
+    background-color: #b5aace;
 }

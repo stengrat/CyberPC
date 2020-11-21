@@ -18,41 +18,36 @@
         <h3 class="cabeca">O melhor em tecnologia para você!</h3>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-        <a class="navbar-brand" href="#"><img src="/image/cyber2.png" 
-                width="30" height="30" alt="" loading="lazy"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark navbarcolor ">
+        <a class="navbar-brand" href="#"><img src="/image/cyber2.png" width="30" height="30" alt="" loading="lazy"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav mx-auto  ">
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-white" href="/pages/produtos.html">Produtos</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="/pages/registro.html">Registro</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="pages/login.html" tabindex="-1">Login</a>
-                </li>
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <i class=" btn text-white fas fa-search fas-5"></i>
+                <a class=" btn text-white   nav-link text-white" href="/pages/login.html">
+                    <i class="fas fa-sign-in-alt fas-5"></i>
+                </a>
+                <a class=" btn nav-link text-white" href="/pages/carrinho.html">
+                    <i class="fas fa-cart-plus"></i>
+                </a>
+
             </form>
         </div>
     </nav>
@@ -90,8 +85,8 @@
                         <div class="card-body">
                             <h5 class="card-title">AMD Ryzen Threadripper 3990X</h5>
                             <span class="preco_normal">R$ 31.529,29</span>
-                            <p class="parcelado">Em <strong>12x sem juros no cartão</strong> de <span
-                                    style="font-size: 18px; color:#ff6600;">R$ 2.627,44</span> <br /></p>
+                            <p class="parcelado">Em <strong>12x sem juros no cartão</strong> de<span
+                                    class="parcelado price">R$ 2.627,44</span> <br /></p>
                             <p class="preco_desconto">R$ 26.799,90 à vista</p>
                         </div>
                         <div class="card-footer">
@@ -105,7 +100,7 @@
                             <h5 class="card-title">NVIDIA GeForce RTX 2080 Ti</h5>
                             <span class="preco_normal">R$ 12.117,53</span>
                             <p class="parcelado">Em <strong>12x sem juros no cartão</strong> de <span
-                                    style="font-size: 18px; color:#ff6600;">R$ 1.009,79</span> <br /></p>
+                                    class="parcelado price">R$ 1.009,79</span> <br /></p>
                             <p class="preco_desconto">R$ 10.299,90 à vista</p>
                         </div>
                         <div class="card-footer">
@@ -119,7 +114,7 @@
                             <h5 class="card-title">Gabinete Cooler Master C700P</h5>
                             <span class="preco_normal">R$ 4.210,42</span>
                             <p class="parcelado">Em <strong>12x sem juros no cartão</strong> de <span
-                                    style="font-size: 18px; color:#ff6600;">R$ 350,87</span> <br /></p>
+                                    class="parcelado price">R$ 350,87</span> <br /></p>
                             <p class="preco_desconto">R$ 3.999,90 à vista</p>
                         </div>
                         <div class="card-footer">
@@ -221,11 +216,10 @@
                             <i class="fab fa-pinterest-square"></i>
                         </a>
                     </dd>
-  
+
                     <dd class="col-sm-4 text-center mt-4">
-                        <img alt="" src="/image/cyber2.png" width="120" height="120"
-                            class="d-inline-block align-top">
-                        
+                        <img alt="" src="/image/cyber2.png" width="120" height="120" class="d-inline-block align-top">
+
                     </dd>
 
                 </dl>
