@@ -11,7 +11,7 @@
 
 .header{
     background-repeat: no-repeat;  
-    background-image: url("/image/wp.jpg");
+    background-image: url("../image/wp.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -101,7 +101,7 @@
 }
 
 .image{
-    background-image: url("/image/background06.jpg");
+    background-image: url("../image/background06.jpg");
     position: fixed;    
     min-width: 100%;   
     min-height: 100%;
